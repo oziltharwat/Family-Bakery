@@ -1,0 +1,200 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+:root {
+    --white-color: rgb(255, 255, 255);
+    --btn1-color: rgb(142, 119, 84);
+    --black-color: rgb(0, 0, 0);
+    --footer-color: rgb(70, 68, 68);
+    --gray-color: rgb(104, 104, 104);
+
+}
+
+/* 
+.index-1 {
+    z-index: 20;
+}
+
+.index {
+    z-index: 0;
+} */
+
+.img-bg {
+    background-image: url(../photos/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+
+}
+
+.logo-nav {
+    width: 13%;
+
+}
+
+.nav-color a {
+    color: var(--white-color);
+    /* margin-left: 20px; */
+
+}
+
+.nav-link:hover {
+    color: var(--btn1-color);
+}
+
+
+
+@media screen and (max-width:992px) {
+    .navbar-nav ul {}
+    .nav-color a{ background-color: brown;}
+
+    .nav-link {
+
+
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        z-index: 200;
+    }
+
+    .img-bg{padding: 0;}
+
+}
+
+
+
+
+
+
+
+
+.text-img {
+    color: var(--white-color);
+    padding-top: 10rem;
+}
+
+.text-img h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.text-img h4 {
+    font-weight: 400;
+}
+
+.size-img {
+    width: 90%;
+}
+
+.btn-1 {
+    padding: 14px 18px;
+    border: none;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    background-color: var(--btn1-color);
+}
+
+.btn-2 {
+    padding: 14px 18px;
+    border: white solid 2px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    background-color: transparent;
+}
+
+.btn-1 a {
+    color: var(--white-color);
+    font-size: large;
+}
+
+.btn-2 a {
+    color: var(--white-color);
+    font-size: large;
+}
+
+.btn-1:hover {
+    background-color: transparent;
+    border: white solid 2px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.btn-2:hover {
+    background-color: var(--btn1-color);
+    border: none;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+
+
+.about-right {
+    color: var(--gray-color);
+    font-size: large;
+}
+
+h2 {
+    color: var(--black-color);
+    font-weight: 700;
+}
+
+.about-right li {
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: large;
+    font-weight: 900;
+}
+
+.width-div h5 {
+    font-size: medium;
+    font-weight: 900;
+}
+
+.width-div p {
+    color: var(--gray-color);
+}
+
+@media screen and (max-width:992px) {
+    .size-img {
+        width: 100%;
+    }
+}
+
+.text-footer h5 {
+    font-size: medium;
+    font-weight: 900;
+}
+
+.footer {
+    background-color: var(--footer-color);
+}
+
+.footer img {
+    width: 17rem;
+}
